@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 			}
 			else{}
 */
-	var u = "http://193.134.241.210/dataset/c497ad31-759b-4491-aa6e-9ec8d2d34047/resource/ae44753e-a5ea-46bb-b8c7-6339ee8eaff3/download/fsmt_sites.csv";
+	var u = "https://dl.dropboxusercontent.com/s/qql59msohngkrp2/fsmt_sites.csv?dl=0";
 	var map, loc, name;
 	d3.csv(u, function(data) {
 		console.log(data)
